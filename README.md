@@ -2,9 +2,9 @@
 
 ###Student Information
 **Developer 1**:
-  + Name: Tommy Trojan
-  + USC Email: ttrojan@usc.edu
-  + USC ID: 0123456789
+  + Name: Greg Linscheid
+  + USC Email: linschei@usc.edu
+  + USC ID: 3239279633
 
 **Developer 2**:
   + Name: Traveler VII
