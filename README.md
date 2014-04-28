@@ -7,6 +7,6 @@
   + USC ID: 3239279633
 
 **Developer 2**:
-  + Name: Traveler VII
-  + USC Email: traveler@usc.edu
-  + USC ID: 9876543210
+  + Name: Ani Ramchandran
+  + USC Email: anirudhr@usc.edu
+  + USC ID: 1555827853
