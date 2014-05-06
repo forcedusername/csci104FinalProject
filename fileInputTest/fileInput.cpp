@@ -38,9 +38,9 @@ int main( int argc, char* argv[] )
 	allBids = setBids( argv[1] );
 	
 	// Test to see if it worked
-	std::cout << std::endl << "BidKeyword\t\tPrice\t\tCompany" << std::endl;
+	std::cout << std::endl << "BidKeyword\t\t\t\tPrice\t\t\t\tCompany" << std::endl;
 	for ( std::vector< advertiserBid >::iterator it = allBids->begin(); it != allBids->end(); ++it ) {
-		std::cout << it->_bidKeyword << "\t" << it->_price << "\t" << it->_company << std::endl;
+		std::cout << it->_bidKeyword << "\t\t\t\t" << it->_price << "\t\t\t\t" << it->_company << std::endl;
 	}
 	
 	// Delete allBids
@@ -86,9 +86,11 @@ std::vector< advertiserBid > * setBids( char* inputFile ) {
 		inputStream >> price;
 		
 		// Get company name
-		//inputStream >> tempBid_.company;
-		std::getline( inputStream, tempBid._company );
-		
+		// Get first word, then add temp line to rest
+		inputStream >> tempBid._company;
+		std::string tempRestLine;
+		std::getline( inputStream, tempRestLine );
+		tempBid._company += tempRestLine;
 		
 		// Fill advertiserBid values
 		tempBid._bidKeyword = bidKeyword;
