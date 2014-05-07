@@ -1,4 +1,0 @@
-no **no** # no
-no no no no no no no
-**no** # no
-[faces](tester.txt)
