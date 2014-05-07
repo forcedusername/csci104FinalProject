@@ -10,3 +10,8 @@
   + Name: Ani Ramchandran
   + USC Email: anirudhr@usc.edu
   + USC ID: 1555827853
+
+  ####Code Information
+  + PageRank is done via bolds and large headers in Markdown.
+  + Does not write a bill to the advertisers on separate file.
+  
