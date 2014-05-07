@@ -14,4 +14,7 @@
   ####Code Information
   + PageRank is done via bolds and large headers in Markdown.
   + Does not write a bill to the advertisers on separate file.
-  
+  + testing folder is our thought process/testing that we did.
+  + final_code is the graded version.
+  + web_crawl is present with its own makefile
+  + web_search_app has its own pro file and can be compiled via qmake
